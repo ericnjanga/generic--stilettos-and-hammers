@@ -48,10 +48,10 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div id="site-global-wrapper" class="site-global-wrapper hfeed">
-        <div class="container fixed-top">
-            <div class="main-header-wrapper">
+        <div class="container-fluid fixed-top p-0">
+            <div class="main-header-wrapper bg-white">
                 <header class="main-header" id="header" role="banner">
-                    <nav class="navbar navbar-expand-lg">
+                    <nav class="navbar navbar-expand-lg container">
 
                         <div class="navbar-brand" id="branding">
                             <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
