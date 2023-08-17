@@ -44,6 +44,7 @@
     .main-header {
         .logo {
             max-width: var(--site-navbar--logo-max-width);
+            border: 20px solid black;
         }
 
         .navbar-nav {
